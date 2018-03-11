@@ -1,0 +1,12 @@
+
+client/node_modules
+# testing
+client/coverage
+# production
+client/build
+
+.DS_Store
+node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

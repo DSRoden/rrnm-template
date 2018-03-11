@@ -1,0 +1,12 @@
+{
+        "APP_PORT": "5000",
+        "BASE_URL": "http://localhost:5000",
+        "MONGODB_USER": "user",
+        "MONGODB_USER_PWD": "password",
+        "MONGODB_DB_NAME":"rrnm-template",
+        "MONGODB_URL": "localhost:27017",
+        "AWS_BUCKET": "",
+        "AWS_ID": "",
+        "AWS_SECRET":"",
+        "S3_BUCKET_URL": ""
+}

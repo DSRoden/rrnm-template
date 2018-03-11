@@ -1,0 +1,23 @@
+doctype html
+html
+  head
+    title= title
+    meta(property="fb:app_id"             content="817175561663104")
+    meta(property="og:url"                content= url)
+    meta(property="og:title"              content= title)
+    meta(property="og:description"        content= descriptionText)
+    meta(property="og:image"              content= imageUrl)
+    meta(content="image/gif" property="og:image:type")
+    meta(property="og:type"               content="article")
+
+    meta(name="twitter:card" content="summary")
+    meta(name="twitter:site" content="@buzzvote")
+    meta(name="twitter:title" content= title)
+    meta(property="twitter:description" content= descriptionText)
+    meta(property="twitter:image" content= imageUrl)
+
+
+  body
+    h1= title
+    img(src= img alt= title)
+    p= descriptionText
